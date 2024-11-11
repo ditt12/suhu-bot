@@ -1,0 +1,18 @@
+{
+  "name": "suhu-bot",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk mengecek suhu di berbagai kota",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-deprecation index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.5.0",
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "asrv",
+  "license": "MIT"
+}
